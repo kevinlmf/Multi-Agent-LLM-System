@@ -1,0 +1,27 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+openai>=1.10.0
+
+# Perception & Memory dependencies
+networkx>=2.6.3
+numpy>=1.21.0
+requests>=2.26.0
+beautifulsoup4>=4.9.3
+sentence-transformers>=2.2.0  # For memory embeddings
+
+# Visualization
+pygraphviz>=1.11  # For graph visualization (optional)
+matplotlib>=3.8.0
+ipython>=8.18.0
+plotly>=5.0.0  # For interactive visualizations
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# Development (optional)
+jupyter>=1.0.0
+pytest>=7.4.0
+black>=23.12.0
