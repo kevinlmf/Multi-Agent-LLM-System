@@ -9,10 +9,10 @@ This is an **extensible multi-agent reasoning framework** designed to be applied
 ### Current Status
 - ✅ **Core Engine**: Fully implemented (Reasoner → Critic → Refiner loop)
 - ✅ **Graph-Based Memory**: LangGraph state management + dual memory system (episodic + semantic)
-- ✅ **Applied Scenario**: Quantitative Trading Strategy Analysis with Investment Masters Integration 🎩
+- ✅ **Applied Scenario**: Quantitative Trading Strategy Analysis with Investment Masters Integration 
 -  **Future Scenarios**: Smart decision assistant, sentiment monitoring (see Roadmap)
 
-## 🏗️ Cognitive Loop Architecture
+## Cognitive Loop Architecture
 
 The core reasoning engine implements a complete cognitive cycle that can be adapted to any domain:
 
@@ -27,7 +27,7 @@ The core reasoning engine implements a complete cognitive cycle that can be adap
 
 **Core Flow:** Input → Reasoner → Critic → (iterate if needed) → Refiner → Output
 
-## nstallation
+## Installation
 
 ```bash
 git clone https://github.com/kevinlmf/Multi-Agent-LLM-System
