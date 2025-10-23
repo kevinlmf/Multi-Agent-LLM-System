@@ -55,14 +55,26 @@ Cognitive_Multi_Agent_System/
 └── tests/                   # Unit tests for reasoning and workflow integrity
 ```
 
+
+
+### Phase 1: Core Reasoning System + Mathematical Foundations
+This phase aims at bridging **intelligent reasoning systems** with **formal quantitative modeling**, ensuring interpretability, stability, and verifiable improvement over time.
+
+#### Core Agent Framework — Mathematical Foundations
+
+| **Agent** | **Role** | **Theoretical Focus** | **Goal** |
+|------------|-----------|-----------------------|-----------|
+| **Reasoner Agent**<br>Representation & Probabilistic Understanding | Learns structured representations and performs hypothesis generation (LLM-powered). | • **Representation Learning:** Encode reasoning states into latent embeddings capturing semantic and structural dependencies.<br>• **Variational Inference:** Approximate latent reasoning dynamics to infer hidden cognitive variables. | Build reasoning as *representation learning + variational inference*, enabling interpretable latent cognition. |
+| **Critic Agent**<br>Decision & Evaluation Framework | Evaluates reasoning confidence, selects optimal branches, and refines decision flow. | • **Decision Theory:** Choose actions maximizing expected utility.<br>• **Reinforcement Learning:** Model confidence and feedback as a value function guiding adaptive control. | Develop a confidence-driven controller grounded in Bayesian and decision-theoretic principles. |
+| **Refiner Agent**<br>Synthesis through Optimization | Integrates multi-branch outputs into coherent, high-fidelity answers. | • **Optimal Transport:** Align and merge reasoning distributions via Wasserstein barycenters.<br>• **Multi-Objective Optimization:** Balance accuracy and stability during synthesis. | Define refinement as an optimization process achieving semantic and structural coherence. |
+
+> Please see [**Agent CognitiveCore**](https://github.com/kevinlmf/Agent_CognitiveCore) for insights on how the **memory module** can be further improved and integrated.
+
+### Phase 2: Applied Scenarios
+
 ## Scenario 1 — Financial Strategy Analysis (Current)
 
-A live demo showing how the cognitive loop improves multi-perspective reasoning in quantitative finance, **enhanced with Investment Masters consultation** 🎩.
-
-### Enhanced Features
-- **Graph-Based Memory**: LangGraph manages reasoning state and history
-- **Investment Masters Integration**: Consults legendary investors (Buffett, Soros, Dalio) for multi-perspective analysis
-- **Cognitive Loop**: Perception → Memory → Master Consultation → Reasoning → Decision
+A live demo showing how the cognitive loop improves multi-perspective reasoning in quantitative finance, **enhanced with Investment Masters consultation** .
 
 ### Run Demo
 
@@ -96,19 +108,6 @@ Consulting investment masters...
 See [INVESTMENT_MASTERS_INTEGRATION.md](INVESTMENT_MASTERS_INTEGRATION.md) for detailed documentation.
 
 ##  Roadmap
-
-### Phase 1: Core Reasoning System + Mathematical Foundations
-This phase aims at bridging **intelligent reasoning systems** with **formal quantitative modeling**, ensuring interpretability, stability, and verifiable improvement over time.
-
-#### Core Agent Framework — Mathematical Foundations
-
-| **Agent** | **Role** | **Theoretical Focus** | **Goal** |
-|------------|-----------|-----------------------|-----------|
-| **Reasoner Agent**<br>Representation & Probabilistic Understanding | Learns structured representations and performs hypothesis generation (LLM-powered). | • **Representation Learning:** Encode reasoning states into latent embeddings capturing semantic and structural dependencies.<br>• **Variational Inference:** Approximate latent reasoning dynamics to infer hidden cognitive variables. | Build reasoning as *representation learning + variational inference*, enabling interpretable latent cognition. |
-| **Critic Agent**<br>Decision & Evaluation Framework | Evaluates reasoning confidence, selects optimal branches, and refines decision flow. | • **Decision Theory:** Choose actions maximizing expected utility.<br>• **Reinforcement Learning:** Model confidence and feedback as a value function guiding adaptive control. | Develop a confidence-driven controller grounded in Bayesian and decision-theoretic principles. |
-| **Refiner Agent**<br>Synthesis through Optimization | Integrates multi-branch outputs into coherent, high-fidelity answers. | • **Optimal Transport:** Align and merge reasoning distributions via Wasserstein barycenters.<br>• **Multi-Objective Optimization:** Balance accuracy and stability during synthesis. | Define refinement as an optimization process achieving semantic and structural coherence. |
-
-### Phase 2: Applied Scenarios
 
 #### Scenario 2: Intelligent Decision Assistant
 **Status**: Planned
