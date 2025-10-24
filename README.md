@@ -105,7 +105,7 @@ Consulting investment masters...
 [Recommendation synthesizing cognitive analysis + master opinions]
 ```
 
-See [INVESTMENT_MASTERS_INTEGRATION.md](INVESTMENT_MASTERS_INTEGRATION.md) for detailed documentation.
+See [INVESTMENT_MASTERS_INTEGRATION.md](INVESTMENT.md) for detailed documentation.
 
 ##  Roadmap
 
