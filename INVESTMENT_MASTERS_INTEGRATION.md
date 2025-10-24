@@ -206,4 +206,4 @@ opinions = get_master_opinions(scenario)
 
 ---
 
-**Happy Trading with the Masters! 🎩📈**
+**Happy Trading，Happy life! 📈**
